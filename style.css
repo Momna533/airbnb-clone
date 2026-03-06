@@ -186,3 +186,76 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
+body.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-theme header {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+body.dark-theme header nav a {
+  color: #f1f1f1;
+}
+
+body.dark-theme header nav a:hover {
+  color: #ff385c; /* keep Airbnb red accent */
+}
+
+body.dark-theme section {
+  background-color: #121212;
+}
+
+body.dark-theme section h1 {
+  color: #f1f1f1;
+}
+
+body.dark-theme section form input,
+body.dark-theme section form button {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #f1f1f1;
+}
+
+body.dark-theme section form button {
+  background-color: #ff385c;
+  color: #fff;
+}
+
+body.dark-theme article {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme article h2 {
+  color: #f1f1f1;
+}
+
+body.dark-theme article p {
+  color: #ff385c;
+}
+
+body.dark-theme article a {
+  color: #f1f1f1;
+}
+
+/* Footer */
+body.dark-theme footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+body.dark-theme footer nav a {
+  color: #ccc;
+}
+
+body.dark-theme footer nav a:hover {
+  color: #ff385c;
+}
+
+body.dark-theme footer p {
+  color: #777;
+}
